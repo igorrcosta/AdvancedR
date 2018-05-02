@@ -10,3 +10,6 @@ complex_func <- function(x,y,z) {
   return(sum(sqrt(x + y) + z))
 }
 print(complex_func(x = iris$Sepal.Length,y=iris$Sepal.Width,z=iris$Petal.Length))
+easy_func <- function(x){
+  return(sqrt(x) + x)
+}
