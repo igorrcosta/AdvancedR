@@ -4,3 +4,6 @@ plot(x = iris$Sepal.Length, y = iris$Sepal.Width, xlab = "sepal length",
 hist(x = iris$Petal.Length, xlab = "petal length")
 hist(x = iris$Sepal.Width, xlab = "Sepal width")
 boxplot(x = iris$Petal.Width)
+hist(x = iris$Sepal.Width, xlab = "Sepal width")
+boxplot(x = iris$Sepal.Length) 
+
