@@ -6,4 +6,7 @@ hist(x = iris$Sepal.Width, xlab = "Sepal width")
 boxplot(x = iris$Petal.Width)
 hist(x = iris$Sepal.Width, xlab = "Sepal width")
 boxplot(x = iris$Sepal.Length) 
-
+library(dplyr)
+iris %>%
+  group_by(Species) %>%
+  summarise(avg = mean(Sepal.Width))
