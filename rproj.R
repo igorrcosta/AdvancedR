@@ -10,3 +10,10 @@ library(dplyr)
 iris %>%
   group_by(Species) %>%
   summarise(avg = mean(Sepal.Width))
+complex_func <- function(x,y,z) {
+  return(sum(sqrt(x + y) + z))
+}
+easy_func <- function(x){
+  return(sqrt(x) + x)
+}
+
